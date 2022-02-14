@@ -1,8 +1,9 @@
 
 ### 1.Project1
 
-## Deployment steps:
+## Deployment steps in command line:
 - composer install
+- cp .env-example .env
 - edit .env file and add database connection.
 - php artisan db:wipe (To remove all tables)
 - php artisan db:seed (to re-execute this command you need re-execute previous command).
